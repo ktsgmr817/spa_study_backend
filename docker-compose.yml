@@ -17,5 +17,6 @@ services:
       - db-volume:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: password
+      FRONTEND_ORIGIN: http://localhost:3000
 volumes:
   db-volume:
